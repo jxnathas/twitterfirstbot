@@ -16,7 +16,7 @@ api = tweepy.API(auth)          #Logando
 
 numero = int(palavras[0])  #A palavra atual esta salvo no indice 0 da lista
 
-texto = "Foda-se " + palavras[numero].lower() 
+texto = "Foda-se " + palavras[numero]
 #postando o texto
 
     
