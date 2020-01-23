@@ -16,16 +16,8 @@ api = tweepy.API(auth)          #Logando
 
 numero = int(palavras[0])  #A palavra atual esta salvo no indice 0 da lista
 
-texto = ""
-
-if str(palavras[numero])[0] == '0':
-    texto = "Fodase "+palavras[numero][1].lower()+"... Melhor não deixa quieto"
-    #Algumas palavras não podem ser chingadas, marcamos elas com um 0
-    #O bot so vai postar a primeira letra delas
-    
-else:
-    texto = "Foda-se " + palavras[numero].lower() 
-    #Caso não seja uma palavra marcada o bot manda ela se foder msm
+texto = "Foda-se " + palavras[numero].lower() 
+#postando o texto
 
     
 api.update_status(status=texto) #Então postamos no twitter o texto gerado
