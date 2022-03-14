@@ -1,6 +1,4 @@
-# Foda-se LOL Bot
+# LOL Bot
 
-*Feito com puro ódio kkk brinks*
-
-Um bot que usa uma lista de palavras pra xingar champs e tudo o que for de League of Legends.
+Um bot que usa uma lista de palavras para comentar nas publicações de League of Legends no twitter.
 we love you @fodase_bot
